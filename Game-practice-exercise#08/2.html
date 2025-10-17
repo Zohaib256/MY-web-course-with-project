@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0; 
+        }
+        .ball{
+        border: 2px solid black;
+        background-color: red;
+        width: 60px;
+        height: 60px;
+        border-radius: 50px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateX 3s linear infinite , animateY 1s ease-out infinite alternate;
+
+    }
+        .container{
+            position: relative;
+        background-color: yellow;
+        border: 2px solid black;
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-shadow: 2px 6px 4px gray;
+        font-size: xx-large;
+        /* display: flex; */
+        /* align-items: end; */
+    }
+    
+    @keyframes animateX{
+        from{
+            left: 0;
+        }
+        to{
+            left: 100%;
+        }
+    }
+    @keyframes animateY {
+        from{
+            bottom: 0;
+        }
+        to{
+            bottom: 80%;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Muhammd Zohaib Ashraf</h2>
+        <div class="ball"></div>
+    </div>
+</body>
+</html>
