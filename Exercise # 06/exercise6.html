@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 6</title>
+    <style>
+
+        nav{
+            display: flex;
+            /* justify-content: center; */
+            justify-content: space-around;
+            align-items: center;
+
+        }
+        img{
+            width: 93px;
+            height: 44px;
+            display: flex;
+        }
+    ul{
+        display: flex;
+        gap: 20px;
+    }
+        ul li{
+            list-style: none;
+            /* display: flex; */
+            
+        }
+        ul li img{
+            height: 20px;
+            width: 30px;
+        }
+        main{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+        .banner{
+            text-align: center;
+            
+        }
+        .download{
+            font-size:xx-large;
+            font-family:sans-serif;
+        }
+        p img{
+            display: flex;
+            height: 20px;
+            display: inline;
+        }
+        .text{
+            font-size:19px;
+            font-family: sans-serif;
+            text-align: center;
+            width: 45vw;
+            margin: auto;
+            color: rgb(71, 63, 63);
+            margin-bottom: 30px;
+        }
+        button{
+            background-color: rgb(34, 191, 197);
+            border: none;
+            font-size: 10px;
+            color: white;
+            font-weight: bold;
+            padding: 10px 18px;
+            border-radius: 4px;
+        }
+        span img{
+            width: 60px;
+            height: 50px;
+            
+        }
+        .block{
+            width: 45vw;
+padding: 10px 20px;
+margin: auto;
+color: rgb(109, 103, 103);
+display: flex;
+align-self: center;
+direction: flex;
+align-items: center;
+        }
+        .text{
+            font-family: sans-serif;
+            font-size: medium;
+            margin-top: 20px;
+            
+        }
+        .card {
+            /* border: 2px solid black; */
+            width: 209px;
+            background-color: rgb(231, 231, 231);
+            border-radius: 12px;
+            text-align: center;
+            padding: 28px 10px;
+            padding-top: 2px;
+            height: 120px;
+            
+        }
+        .block2 {
+            /* border: 2px solid black; */
+            width: 47.5vw;
+            margin: auto;
+            gap: 15px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            /* display: flex; */
+            font-family: sans-serif;
+        }
+        h2{
+            margin: 10px 20px 4px 23px;
+            /* font-size: x-large; */
+            font-size: 22px;
+        }
+        p{
+            font-size: 10px;
+            padding-bottom: 23px;
+        }
+        .one{
+            width: 100px;
+            font-size:xx-small;
+            padding: 10px;
+            
+            
+        }
+        a{
+            color: white;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 10px;
+        }
+        .two {
+            background-color: rgb(66, 182, 66);        
+            width: 100px;
+            padding: 10px;
+            font-size: 10px;
+        }
+        @media only screen and (max-width: 1000px){
+            .block2 {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            /* display: flex; */
+            }
+        } 
+        @media only screen and (max-width: 400px){
+            .block2 {
+                display: grid;
+                grid-template-columns: 1fr;
+            /* display: flex; */
+            }
+        } 
+        
+    </style>
+</head>
+<body>
+    <header>
+        <NAv>
+            <div>
+                <img src="1.jpeg" alt="">
+            </div>
+            <div>
+                <ul>
+                    <li>Product</li>
+                    <li>Pricing</li>
+                    <li>Resources</li>
+                    <li>About us</li>
+                    <li><img src="2.jpeg" alt=""></li>
+                </ul>
+            </div>
+        </NAv>        
+    </header>
+    <main>
+        <div>
+
+            <section class="banner">
+                <p class="download">Download <b>UltraEdits</b> for windows <img src="3.jpg" width="120px" height="28px" alt="">
+                </p>
+                <p class="text">Downlad and try UltraEdits before buy it! This download includes the full windows version of the text
+                    editor.</p>
+                <button>DOWNLOAD MAC OR LINIX VERSION</button>
+                <div class="block">
+
+                    <span><img src="4.png" alt=""></span>
+                    <span class="text"><strong class="hi">Download UltraEdits
+                    </strong>v2023.1(released01/08/2023)|Hotfix</span>
+                </div>
+
+                <div class="block2">
+                    <div class="card">
+                        <h2>English</h2>
+                        <p>Zohaib</p>
+                        <button class="one"><a href="ue_english.exe">Download 32-bit</a></button>
+                        <button class="two">Download 64-bit</button>
+                    </div>
+                    <div class="card">
+                        <h2>English</h2>
+                        <p>Zohaib</p>
+                        <button class="one"><a href="ue_english.exe">Download 32-bit</a></button>
+                        <button class="two">Download 64-bit</button>
+                    </div>
+                    <div class="card">
+                        <h2>English</h2>
+                        <p>Zohaib</p>
+                        <button class="one"><a href="ue_english.exe">Download 32-bit</a></button>
+                        <button class="two">Download 64-bit</button>
+                    </div>
+                    <div class="card">
+                        <h2>English</h2>
+                        <p>Zohaib</p>
+                        <button class="one"><a href="ue_english.exe">Download 32-bit</a></button>
+                        <button class="two">Download 64-bit</button>
+                    </div>
+                    <div class="card">
+                        <h2>English</h2>
+                        <p>Zohaib</p>
+                        <button class="one"><a href="ue_english.exe">Download 32-bit</a></button>
+                        <button class="two">Download 64-bit</button>
+                    </div>
+                    <div class="card">
+                        <h2>English</h2>
+                        <p>Zohaib</p>
+                        <button class="one"><a href="ue_english.exe">Download 32-bit</a></button>
+                        <button class="two">Download 64-bit</button>
+                    </div>
+                    <div class="card">
+                        <h2>English</h2>
+                        <p>Zohaib</p>
+                        <button class="one"><a href="ue_english.exe">Download 32-bit</a></button>
+                        <button class="two">Download 64-bit</button>
+                    </div>
+                    <div class="card">
+                        <h2>English</h2>
+                        <p>Zohaib</p>
+                        <button class="one"><a href="ue_english.exe">Download 32-bit</a></button>
+                        <button class="two">Download 64-bit</button>
+                    </div>
+                    <div class="card">
+                        <h2>English</h2>
+                        <p>Zohaib</p>
+                        <button class="one"><a href="ue_english.exe">Download 32-bit</a></button>
+                        <button class="two">Download 64-bit</button>
+                    </div>
+                    <div class="card">
+                        <h2>English</h2>
+                        <p>Zohaib</p>
+                        <button class="one"><a href="ue_english.exe">Download 32-bit</a></button>
+                        <button class="two">Download 64-bit</button>
+                    </div>
+                    <div class="card">
+                        <h2>English</h2>
+                        <p>Zohaib</p>
+                        <button class="one"><a href="ue_english.exe">Download 32-bit</a></button>
+                        <button class="two">Download 64-bit</button>
+                    </div>
+
+                </div>
+    
+            </section>
+
+    </main>
+</body>
+</html>
